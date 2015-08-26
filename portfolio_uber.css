@@ -1,0 +1,273 @@
+
+ body{
+
+ 	background-image: url("JonathanHaber_backdrop.png");
+
+ 	background-size: 101% auto;
+    background-repeat: no-repeat;
+    font-family: Avenir;
+
+ }
+
+
+#backdrop{
+
+	z-index: -1;
+}
+
+#buttonArea{
+
+width: 77%;
+/*height: 100%;
+*/
+}
+
+#myNavbar{
+
+	background-color: rgba(0, 0, 0, 0.43)
+}
+
+.navbar-inverse{
+
+	background-image: none !important;
+	background-color: rgba(0, 0, 0, 0.43);
+
+
+}
+
+
+#contactButton:hover{
+
+z-index: 2;
+background-color: rgba(255, 255, 255, 0.29);
+}
+
+#resumeButton:hover{
+
+z-index: 2;
+background-color: rgba(255, 255, 255, 0.29);
+}
+
+#soonToBeArea{
+
+/*	background-color:rgba(0, 0, 0, 0.46);
+*/	
+	width: 90%;
+	height: auto;
+
+}
+
+.soonToBeArea{
+
+/*	background-color:rgba(0, 0, 0, 0.46);
+*/	
+	width: 100%;
+	height: auto;
+
+}
+
+.modal-dialog{
+
+	width: 90%;
+	height:auto;
+	z-index: 4;
+	height: 90%;
+
+}
+
+.modal-body{
+/*	background-color: rgba(255, 255, 255, 0.29);
+	z-index: 4;
+
+	color:black;
+}.modal-header{
+/*	background-color: rgba(255, 255, 255, 0.29);
+*/	border-bottom: 1px solid rgba(229, 229, 229, 0.1);
+	color:black;
+	z-index: 4;
+}
+
+.modal{
+
+
+}
+
+.modal-content{
+
+/*	background-color: rgba(5, 6, 8, 0.73);
+*/	z-index: 4;
+	margin: auto;
+	height: 90%;
+
+}
+
+.modal-content::after{
+
+	background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+.modal-content::before{
+
+	background-color: rgba(255, 255, 255, 0.6);
+/*    filter: blur(5px);
+*/
+}
+
+
+.modal-footer{
+/*	border-top: 1px solid rgba(229, 229, 229, 0.1);
+*/	background-color: rgba(255, 255, 255, 0.29);
+/*    filter: blur(5px);
+*/
+}
+
+.blurModal{
+/*    filter: blur(5px);
+*/    z-index: 1;
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Avenir",Avenir,Arial,sans-serif;
+   
+}
+
+
+.center{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#section1{
+
+	height: 74vw;
+}
+
+#section2{
+
+	height: 74vw;
+}
+
+
+#section3{
+
+	min-height: 74vw;
+	height: auto;
+	background-color: black;
+}
+
+.frame{
+
+	width: 73vw;
+	height: 50vw;
+}
+
+.no-bullets{
+	list-style-type: none;
+
+}
+
+.ability-score{
+
+	text-align: right;
+	font-size:1.4em;
+}
+
+.ability-title{
+
+	font-size: 1.4em; 
+}
+
+.filled{
+
+	color: yellow;
+}
+
+.notFilled{
+
+	color: white;
+}
+
+.backGradient{
+/*	background-color: RGBA(255, 255, 255, .2);
+*/	padding: 25px;
+	border-radius: 5px;
+	background-image: url("frostedGlass.png");
+	background-size: 100% 100%;
+	opacity: ;
+}
+
+.headingArea{
+
+	text-align: center;
+}
+
+/*Uber Elements
+
+// ||========================================================||
+// || 
+// */
+
+
+li{
+
+	font-size: 24px;
+}
+
+
+.mainRow{
+
+	background-image: url('backdrop2.png');
+	background-size: 96% 105%;
+	background-repeat: no-repeat;
+	height: 64vw;
+
+	}
+
+.row-contents{
+
+	padding: 15px;
+}
+
+.container-main{
+
+	width: 97vw;
+}
+
+#contactButton{
+
+	margin: 17px;
+}
+
+
+#contactButton{
+
+z-index: 2;
+margin: auto;
+width: 90vw;
+height: 20vw;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
